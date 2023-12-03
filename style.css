@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0 20px;
+    font-family: montserrat;
+}
+ #navigator{
+    text-transform: capitalize;
+    background: transparent;
+    height: 50px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background: transparent;
+    /* margin: 0 10px; */
+
+}
+span {
+    content: "\2199";
+  }
+
+.columns{
+    padding: 0 20px;
+    width: 90vw;
+    height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.line{
+ height: 3px;
+ width: 50px;
+ background: black;
+ margin: 10px;
+} 
+.dot{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background:rgb(23, 23, 23);
+    gap: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 30%;
+    margin-left: 5px;
+    margin: 0;
+}
+.nav-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.content{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: center;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+}
+
+     /* Text and color in the middle h1 and color  */
+
+
+.middle-part{
+    width: 90vw;
+}
+h1{
+    margin: 0;
+    word-spacing: 70px;
+}
+.middle-part h1{
+   text-transform: uppercase;
+   font-family: montserrat;
+   font-size: 150px;
+   font-weight: 150;
+   width: 80%;
+
+}
+.middle-part .Rangu{
+    width: 300px;
+    height: 350px; 
+    /* background: linear-gradient( to top right red,yellow); */
+    background-image: linear-gradient(to top right, yellow, red);
+    filter: blur(90px);
+    position:absolute;
+    top: 30%;
+    right: 15%;
+    /* opacity: 80%; */
+}
+
+
+         /* circles and arrow one  */
+
+
+.ret{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 100%; 
+}
+
+.DTP{
+    width: 200px;
+    height: 180px;
+} 
+.crc{
+    height: 70px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.crc1{
+    transform: rotate(-30deg);
+    position: relative;
+    top: 50px;
+}
+.crc2{
+    position: relative;
+    top: -18px;
+    transform: rotate(10deg);
+}
+.DTP1{
+    position: relative;
+    bottom: 37%;
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: 00;
+    font-size: 15px;
+    left: 20%;
+    font-family: Inconsolata;
+}
+.SMT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+}
+.CDE{
+    display: flex;
+    flex-direction: row;
+    /* display: inline; */
+ text-transform: uppercase;
+}
+.TD{
+  width: 30px;
+  background: black;
+  height: 2px;
+  margin: 0 1px 0 10px;
+  padding: 0;
+  position: relative;
+  top: 9px;
+  opacity: 50%;
+}
+
+            /* Text last part */
+.last{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+}
+.emt-1{
+    width: 500px;
+}
+.emt-2{
+    text-transform: capitalize;
+    font-size: 15px;
+    width: 500px;
+}
